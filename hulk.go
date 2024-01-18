@@ -1,4 +1,8 @@
-package main
+package main:(apt-add-repository ppa:neovim-ppa/stable
+apt-get update
+apt-get install neovim
+apt-get install python-dev python-pip python3-dev python3-pip
+pip3 install --user neovim)
 
 /*
  HULK DoS tool on <strike>steroids</strike> goroutines. Just ported from Python with some improvements.
